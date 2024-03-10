@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockeys</title>
+    <!-- Tailwind and Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Manrope google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- font aesome -->
+    <script src="https://kit.fontawesome.com/5095086129.js" crossorigin="anonymous"></script>
+    <style>
+        font-manrope{
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+</head>
+<body class="font-manrope">
+    <header>
+        <!-- navbar starts here -->
+        <div class="container mx-auto px-8 lg:px-24">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-xl font-4xl font-extrabold text-[#131318]">Hockey’s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal hiddden px-1">
+                    <li class="text-[#FF4240]"><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                   <div class="flex gap-4">
+                    <img class="px-3 py-2" src="./Images/Frame.png" alt="">
+                    <a class="btn text-[#FFF] bg-[#FF4240]">Get Ticket</a>
+                   </div>
+                </div>
+              </div>
+        </div>
+        <!-- navbar ends here -->
+    </header>
+    <main>
+        <!-- meet all the heros in the world section starts here -->
+        <section class="container mx-auto px-8 lg:px-24 mt-12">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full h-96">
+                  <img src="./Images/1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full h-96">
+                  <img src="./Images/1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full h-96">
+                  <img src="./Images/2.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full h-96">
+                  <img src="./Images/3.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-[#131318] absolute top-80 ml-[700px]">
+                <h6 class="font-extrabold text-base text-[#FFF] space-y-1 p-4">Meet all the heroes from the field</h6>
+                <p class="text-xs font-medium text-[#ffffff99] p-4">Meeting all the heroes from the field" typically means encountering or getting to know all the <br> notable individuals or experts in a particular domain or area of expertise.</p>
+              </div>
+        </section>
+        <!-- meet all the heros in the world section ends here -->
+        <!-- Professional Hockeys Club starts here -->
+        <section class="container mx-auto px-8 lg:px-24 mt-12">
+            <div>
+                <h1 class="font-4xl font-extrabold text-[#131318] flex justify-center items-center">Professional Hockeys Club</h1>
+                <p class="text-xs font-medium p-4 flex justify-center items-center">"Professional Hockeys Club" likely refers to a professional hockey team or club, commonly found in leagues such as the National Hockey League (NHL) in North America or various professional hockey leagues around the world.</p>
+            </div>
+            <div class="grid mt-5 gap-4 grid-cols-1 lg:grid-cols-4">
+                <div>
+                    <div class="radial-progress text-[#FF4240] flex justify-center items-center text-center ml-40" style="--value:87;" role="progressbar">87%
+                    </div>
+                    <h5 class="font-semibold text-sm mt-2 flex justify-center items-center text-center">Prayer Facility</h5>
+                    <p class="text-sm font-normal mt-2 flex justify-center items-center text-center">A "prayer facility" typically refers to a designated space where individuals can engage in prayer observances.</p>
+                </div>
+                <div>
+                    <div class="radial-progress text-[#49D293] flex justify-center items-center text-center ml-40" style="--value:95;" role="progressbar">95%</div>
+                    <h5 class="font-semibold text-sm mt-2 flex justify-center items-center text-center">Experienced Coach</h5>
+                    <p class="text-sm font-normal mt-2 flex justify-center items-center text-center">
+                        An "experienced coach" is someone who has spent a significant amount of time in a coaching role and has accumulated knowledge, skills, and expertise in guiding and developing teams in a particular discipline.</p>
+                </div>
+                <div>
+                    <div class="radial-progress text-[#FFB546] flex justify-center items-center text-center ml-40" style="--value:90;" role="progressbar">90%</div>
+                    <h5 class="font-semibold text-sm mt-2 flex justify-center items-center text-center">Senior Player</h5>
+                    <p class="text-sm font-normal mt-2 flex justify-center items-center text-center">A "senior player" refers to a player who has been involved in a particular sport for a significant amount of time and has reached an advanced level of skill, experience, and maturity within that context.</p>
+                </div>
+                <div>
+                    <div class="radial-progress text-[#4C8DF1] flex justify-center items-center text-center ml-40" style="--value:80;" role="progressbar">80%</div>
+                    <h5 class="font-semibold text-sm mt-2 flex justify-center items-center text-center">Training Ground</h5>
+                    <p class="text-sm font-normal mt-2 flex justify-center items-center text-center">
+                        A "training ground" refers to a location where athletes, particularly in sports such as soccer, football, rugby, and others, practice and hone their skills under the guidance of coaches and trainers. </p>
+                </div>
+            </div>  
+          </section>   
+        <!-- Professional Hockeys Club ends here -->
+        <!-- Program Sections starts here -->
+        <section class="container mx-auto px-8 lg:px-24 mt-12">
+          <div>
+            <h1 class="font-4xl font-extrabold text-[#131318] flex justify-center items-center">Program Sections</h1>
+            <p class="text-xs font-medium p-4 flex justify-center items-center text-center">Many professional associations are divided into sections or divisions that focus on specific areas within the broader profession</p>
+          </div>
+            <div class="space-y-8">
+              <div class="grid mt-5 gap-4 grid-cols-1 lg:grid-cols-2">
+                <div class="grid grid-cols-1 w-full">
+                  <div class="container relative">
+                    <img class="grid grid-cols-1 w-full h-80" src="./Images/2.png" alt="">
+                    <div class="absolute top-20 ml-6 bg-[#FFF] mr-[50px] space-y-2">
+                      <h4 class="text-lg font-extrabold flex justify-center items-center text-center">Junior Program</h4>
+                      <p class="font-medium text-base flex justify-center items-center">"Junior Program" typically refers to a structured educational or training initiative designed for younger individuals, often children or teenagers.</p>
+                      <a class="btn text-[#FFF] bg-[#FF4240]">Register Now!</a>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="grid grid-cols-1 w-full">
+                  <div class="container relative">
+                    <img class="grid grid-cols-1 w-full h-80" src="./Images/3.png" alt="">
+                    <div class="absolute top-20 ml-6 bg-[#FFF] mr-[50px] space-y-2">
+                      <h4 class="text-lg font-extrabold flex justify-center items-center">Teenager Program</h4>
+                      <p class="font-medium text-base flex justify-center items-center">A "Teenager Program" typically refers to a structured set of activities, courses, or initiatives designed specifically for teenagers.</p>
+                      <a class="btn text-[#FFF] bg-[#FF4240]">Register Now!</a> 
+                    </div>
+                  </div>
+                 
+                </div>
+              </div>
+              <div class="grid col-span-2 w-full mb-24">
+                <div class="container relative">
+                  <img class="grid col-span-1 w-full h-80" src="./Images/4.png" alt="">
+                  <div class="absolute top-20 ml-12 bg-[#FFF] mr-[700px] space-y-2">
+                    <h4 class="text-lg font-extrabold flex justify-center items-center text-center">Professional Program</h4>
+                    <p class="font-medium text-base flex justify-center items-center">A "Professional Program" typically refers to a structured educational or training initiative designed to enhance the skills, knowledge, and competencies of individuals in a specific profession or industry.</p>
+                    <a class="btn text-[#FFF] bg-[#FF4240]">Register Now!</a> 
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+        </section>
+        <!-- Program Sections ends here -->
+        
+      
+        <!-- Our New Products section starts here -->
+        <section class="container mx-auto px-8 lg:px-24 mt-40 space-y-12">
+            <div>
+                <h1 class="font-4xl font-extrabold text-[#131318] flex justify-center items-center">Our New Products</h1>
+                <p class="text-xs font-medium p-4 flex justify-center items-center text-center">As of my last update in January 2022, I don't have access to real-time or future data, so I can't provide information on products released after that time. If you're referring to new products launched after January 2022, I wouldn't have that information.</p>
+            </div>
+          <div class="grid grid-cols-1 lg:grid-cols-2">
+            <div class="flex gap-8 mb-8">
+              <div>
+                <img src="./Images/5.png" alt="">
+              </div>
+              <div>
+                    <i class="fa-solid fa-star text-xl text-amber-500">5.0</i>
+                    <i class="fa-solid fa-eye">20</i>
+                    <i class="fa-regular fa-heart">200</i>
+                  <h4 class="text-sm font-extrabold">World Cup Flags Football</h4>
+                  <p class="font-medium text-base">"World Cup Flags Football" is likely a combination of the FIFA World Cup and flag football.</p>
+                    <h5 class="text-sm font-extrabold text-[#FF4240]">Price - $22.00</h5>
+                    <div class="flex gap-2">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      <p class="font-medium text-base">Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>  
+            <div class="flex gap-8 mb-8">
+              <div>
+                <img src="./Images/6.png" alt="">
+              </div>
+              <div>
+                    <i class="fa-solid fa-star text-xl text-amber-500">5.0</i>
+                    <i class="fa-solid fa-eye">20</i>
+                    <i class="fa-regular fa-heart">200</i>
+                  <h4 class="text-sm font-extrabold">World Cup Flags Football</h4>
+                  <p class="font-medium text-base">"World Cup Flags Football" is likely a combination of the FIFA World Cup and flag football.</p>
+                    <h5 class="text-sm font-extrabold text-[#FF4240]">Price - $22.00</h5>
+                    <div class="flex gap-2">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      <p class="font-medium text-base">Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>  <div class="flex gap-8 mb-8">
+              <div>
+                <img src="./Images/7.png" alt="">
+              </div>
+              <div>
+                    <i class="fa-solid fa-star text-xl text-amber-500">5.0</i>
+                    <i class="fa-solid fa-eye">20</i>
+                    <i class="fa-regular fa-heart">200</i>
+                  <h4 class="text-sm font-extrabold">World Cup Flags Football</h4>
+                  <p class="font-medium text-base">"World Cup Flags Football" is likely a combination of the FIFA World Cup and flag football.</p>
+                    <h5 class="text-sm font-extrabold text-[#FF4240]">Price - $22.00</h5>
+                    <div class="flex gap-2">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      <p class="font-medium text-base">Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>  <div class="flex gap-8 mb-8">
+              <div>
+                <img src="./Images/8.png" alt="">
+              </div>
+              <div>
+                    <i class="fa-solid fa-star text-xl text-amber-500">5.0</i>
+                    <i class="fa-solid fa-eye">20</i>
+                    <i class="fa-regular fa-heart">200</i>
+                  <h4 class="text-sm font-extrabold">World Cup Flags Football</h4>
+                  <p class="font-medium text-base">"World Cup Flags Football" is likely a combination of the FIFA World Cup and flag football.</p>
+                    <h5 class="text-sm font-extrabold text-[#FF4240]">Price - $22.00</h5>
+                    <div class="flex gap-2">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      <p class="font-medium text-base">Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>  <div class="flex gap-8 mb-8">
+              <div>
+                <img src="./Images/9.png" alt="">
+              </div>
+              <div>
+                    <i class="fa-solid fa-star text-xl text-amber-500">5.0</i>
+                    <i class="fa-solid fa-eye">20</i>
+                    <i class="fa-regular fa-heart">200</i>
+                  <h4 class="text-sm font-extrabold">World Cup Flags Football</h4>
+                  <p class="font-medium text-base">"World Cup Flags Football" is likely a combination of the FIFA World Cup and flag football.</p>
+                    <h5 class="text-sm font-extrabold text-[#FF4240]">Price - $22.00</h5>
+                    <div class="flex gap-2">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      <p class="font-medium text-base">Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>  <div class="flex gap-8 mb-8">
+              <div>
+                <img src="./Images/10.png" alt="">
+              </div>
+              <div>
+                    <i class="fa-solid fa-star text-xl text-amber-500">5.0</i>
+                    <i class="fa-solid fa-eye">20</i>
+                    <i class="fa-regular fa-heart">200</i>
+                  <h4 class="text-sm font-extrabold">World Cup Flags Football</h4>
+                  <p class="font-medium text-base">"World Cup Flags Football" is likely a combination of the FIFA World Cup and flag football.</p>
+                    <h5 class="text-sm font-extrabold text-[#FF4240]">Price - $22.00</h5>
+                    <div class="flex gap-2">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      <p class="font-medium text-base">Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Our New Products section starts here  -->
+        </section>
+        <!-- Clients Question section starts here -->
+        <section class="container mx-auto px-8 lg:px-24 mt-12">
+            <div class="mb-12">
+              <h1 class="font-4xl font-extrabold text-[#131318] flex justify-center items-center">Clients Question</h1>
+                <p class="text-xs font-medium p-4 flex justify-center items-center">
+                  "Client questions" typically refer to inquiries or queries raised by clients. These questions can vary widely depending on the context of the business or service provided. </p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 bg-[#FFF]">
+              <div class="w-full p-8 ml-16">
+              <img src="./Images/11.png" alt="">
+            </div>
+            <div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-xl font-medium">
+                  Our Equipment
+                </div>
+                <div class="collapse-content"> 
+                  <p>"our equipment" generally refers to the tools, machinery, devices, or resources owned or used by a specific entity or organization.</p>
+                </div>
+              </div>
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" checked="checked" /> 
+              <div class="collapse-title text-xl font-medium">
+                Hockey Training
+              </div>
+              <div class="collapse-content"> 
+                <p>
+                  Hockey training refers to the process of developing the skills, physical conditioning, tactical understanding, and overall proficiency required to excel in the sport of hockey.</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+                Private Lessons
+              </div>
+              <div class="collapse-content"> 
+                <p>
+                  Private lessons refer to one-on-one instruction or coaching sessions between a student and a teacher or coach.</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" checked="checked" /> 
+              <div class="collapse-title text-xl font-medium">
+                Ski Touring
+              </div>
+              <div class="collapse-content"> 
+                <p>Ski touring, also known as backcountry skiing or alpine touring, is a form of skiing that involves traveling through snow-covered terrain using specialized equipment. Unlike downhill skiing, which typically takes place at ski resorts on groomed trails, ski touring involves venturing into the backcountry or off-piste areas where there are no marked trails or ski lifts.</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+                Bookings
+              </div>
+              <div class="collapse-content"> 
+                <p>
+                  "Bookings" typically refer to reservations or appointments made by customers or clients for a particular service, event, or resource. </p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-medium">
+                Pricings
+              </div>
+              <div class="collapse-content"> 
+                <p>
+                  "Pricings" typically refers to the structure or set of prices associated with products, services, or offerings provided by a business or organization. Pricing is a fundamental aspect of business strategy and involves determining the monetary value or cost associated with goods or services provided to customers.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Clients Question section ends here -->
+        </section>
+        <!-- Get In Touch section starts here -->
+        <section class="container mx-auto px-8 lg:px-24 mt-12">
+          <div class="mb-12">
+            <h1 class="font-4xl font-extrabold text-[#131318] flex justify-center items-center">Get In Touch</h1>
+              <p class="text-xs font-medium p-4 flex justify-center items-center text-center">
+                "Get in Touch" is a common phrase used on websites, social media profiles, and other platforms to encourage visitors to contact the business or organization. </p>
+          </div>
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div class="space-y-4">
+              <div class="justify-center items-center p-12 bg-[#BCED6D1A] rounded-[16px]">
+                <img src="./Images/Group 1171275317.png" alt="">
+                <div>
+                  <h6 class="text-base font-normal text-[#0d0d1266]">Phone Number :</h6>
+                  <h6 class="text-base font-normal">(+62) 123-321-543</h6>
+                </div>
+              </div>  
+             <div class="justify-center items-center p-12 bg-[#FDDD5F1A] rounded-[16px]">
+                <img src="./Images/Group 1171275318.png" alt="">
+                <div>
+                  <h6 class="text-base font-normal text-[#0d0d1266]">Email :</h6>
+                  <h6 class="text-base font-normal">hockeys@support.com</h6>
+                </div>
+              </div>  
+              <div class="justify-center items-center p-12 bg-[ #629CF31A] rounded-[16px]">
+                <img src="./Images/Group 1171275321.png" alt="">
+              <div>
+                  <h6 class="text-base font-normal text-[#0d0d1266]">Location :</h6>
+                  <h6 class="text-base font-normal">152/1 Mohakhali Wireless Gate</h6>
+                </div>
+              </div>
+            </div>
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 space-y-2">
+            <div>
+              <label for="">Your Name</label>
+              <input type="text" placeholder="Enter your full name" class="input input-bordered input-error w-full max-w-xs flex justify-center items-center" />
+            </div>
+            <div>
+              <label for="">Your Email</label>
+              <input type="text" placeholder="Enter your Email" class="input input-bordered input-error w-full max-w-xs flex justify-center items-center" />
+            </div>
+            <div>
+              <label for="">Subject</label>
+              <input type="text" placeholder="Enter your subject" class="input input-bordered input-error w-full max-w-xs flex justify-center items-center " />
+            </div>
+            <div>
+              <label for="">Phone Number</label>
+              <input type="text" placeholder="Enter your phone number" class="input input-bordered input-error w-full max-w-xs flex justify-center items-center" />
+            </div>
+            <div>
+              <label for="">Message</label>
+              <textarea name="" id="" cols="80" rows="6">Write your message</textarea>
+            </div>
+            <div>
+              <a class="btn text-[#FFF] bg-[#FF4240] px-4 py-2 justify-center items-center w-full">Send Message!</a> 
+            </div>
+          </div>
+          </div>
+          <!-- Get In Touch section starts here -->
+        </section>
+        <!-- Social Media section starts here -->
+        <section class="container mx-auto px-8 lg:px-24 mt-12">
+          <div class="bg-[#13131808] h-40 space-y-8 p-12">
+            <div>
+              <h1 class="font-4xl font-extrabold text-[#131318] flex justify-center items-center">Social Media</h1>
+            </div>
+            <div class="flex justify-center items-center gap-6">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+          </div>
+         
+          <!-- Social Media section ends here -->
+        </section>
+    </main>
+    <!-- footer starts here -->
+    <footer class="footer p-10 bg-[#131318] text-[#FFF] mt-24 flex justify-center items-center text-center">
+      <div class="flex flex-col lg:flex-row gap-8 space-y-2">
+      <aside>
+        <h1 class="flex justify-center items-center text-center font-4xl font-extrabold">Get In Touch</h1>
+        <p>"Get in Touch" is a phrase commonly used on websites, social media profiles, or other <br> platforms to encourage visitors or users to contact the business or organization.</p>
+        <div>
+          <div class="flex gap-8">
+            <img src="./Images/email.png" alt="">
+            <p>hockeys@support.com</p>
+          </div>
+        </div> 
+        <div>
+          <div class="flex gap-8">
+            <img src="./Images/telephone.png" alt="">
+            <p>(+62) 123-321-543</p>
+          </div>
+        </div> 
+      </aside> 
+      <div class="grid grid-cols-2 lg:grid-cols-3 gap-8">
+      <nav class="grid">
+        <h6 class="footer-title">Company</h6> 
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Leadership</a>
+        <a class="link link-hover">Careers</a>
+        <a class="link link-hover">News & Articles</a>
+        <a class="link link-hover">Legal Notice</a>
+      </nav> 
+      <nav class="grid">
+        <h6 class="footer-title">Support</h6> 
+        <a class="link link-hover">Help Center</a>
+        <a class="link link-hover">FAQ</a>
+        <a class="link link-hover">Ticket Support</a>
+        <a class="link link-hover">Contact Us</a>
+      </nav> 
+      <nav class="grid">
+        <h6 class="footer-title">Services</h6> 
+        <a class="link link-hover">Academy</a>
+        <a class="link link-hover">Group Lesson</a>
+        <a class="link link-hover">Private Lesson</a>
+        <a class="link link-hover">Hockeys for kids</a>
+        <a class="link link-hover">Hockeys for adults</a>
+      </nav>
+    </div>
+      </div>
+    </footer>
+</body>
+</html>
